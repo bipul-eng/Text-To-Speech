@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Text To Speech Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form">
+            <h2>Text To Speech Converter</h2>
+            <form>
+            <fieldset>
+                <legend style="color:white">Text To Speech Converter</legend>
+                <textarea id="text1" rows="16" cols="50"></textarea>
+                <br>
+                <br>
+                <select id="lang">
+                    <option value="">Select Your Language</option>
+                    <option value="Microsoft David - English (United States)">Microsoft David - English (United States)</option>
+                    <option value="Microsoft Zira - English (United States)">Microsoft Zira - English (United States)</option>
+                    <option value="Microsoft Mark - English (United States)">Microsoft Mark - English (United States)</option>
+                    <option value="Microsoft David Desktop - English (United States)">Microsoft David Desktop - English (United States)</option>
+                    <option value="Microsoft Zira Desktop - English (United States)">Microsoft Zira Desktop - English (United States)</option>
+                </select>
+                    <button id="ck" onclick="speak()" type="button">Change</button>
+            </fieldset>
+        </form>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
